@@ -7,13 +7,20 @@ export default function Banner() {
 
   return (
     <div>
+        
+
+       
         <Nav>
+        
             <img
               src="https://res.cloudinary.com/hiruniherath/image/upload/v1661666321/test/F_copy_zs1hmw.png"
               style={{width:"90px"}}
               alt="Logo"
             />
+           
           <Bars />
+
+          
           <NavMenu>
             <NavLink to="/" activeStyle>
               <span >Home</span>
