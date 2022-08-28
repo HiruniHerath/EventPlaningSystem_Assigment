@@ -19,37 +19,35 @@ export default function ContactUsForm() {
           
          
           <Form>
-             
+            
               <Form.Group className="mb-3">
-                  <Form.Label> Username: </Form.Label>
-                  <Form.Control type="text" placeholder="Username" />
+                  <Form.Label> Name: </Form.Label>
+                  <Form.Control type="text" placeholder="Name" />
               </Form.Group>
+              <br></br>
               <Form.Group className="mb-3" >
-                  <Form.Label>Password: </Form.Label>
-                  <Form.Control type="password" placeholder="password" />
+                  <Form.Label>Email: </Form.Label>
+                  <Form.Control type="text" placeholder="Email" />
               </Form.Group>
+              <br></br>
               <Form.Group className="mb-3">
                   <Form.Label> Company: </Form.Label>
                   <Form.Control type="text" placeholder="Companyname" />
               </Form.Group>
+              <br></br>
               <Form.Group className="mb-3">
                   <Form.Label> Contact No: </Form.Label>
                   <Form.Control type="text" placeholder="ContactNo" />
               </Form.Group>
-
+              <br></br>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label>What Do you want to know</Form.Label>
-        <Form.Control as="textarea" rows={5} />
+        <Form.Control as="textarea" rows={8} />
       </Form.Group>
+      <br></br>
+              <div style={{paddingLeft:'80%',paddingTop:"20px"}}>
 
-
-
-
-
-             
-              <div style={{paddingLeft:'80%'}}>
-
-               {' '} <Button variant="secondary">Login</Button>
+               {' '} <Button variant="secondary">submit</Button>
                </div>
 
           </Form>
