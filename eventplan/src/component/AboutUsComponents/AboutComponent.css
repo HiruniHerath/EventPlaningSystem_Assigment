@@ -7,7 +7,7 @@
 .video-container video {
   width: 100%;
   height: 100%;
-  padding-top:2vh ;
+
   position: absolute;
   object-fit: cover;
   z-index: 0;
@@ -48,4 +48,18 @@
   width: 500px;
  height: 570px;
  
+}
+
+.font{
+    font-family:IstokWeb;
+     color:#B27B7B; 
+     font-size: 20px
+
+}
+.imgab{
+
+    width:100px;
+
+
+
 }
