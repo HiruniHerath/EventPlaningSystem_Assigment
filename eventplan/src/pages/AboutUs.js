@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../component/Footer/footer"
 import NavBar from "../component/NavigationBar/NavBar"
 import AbBanner from "../component/AboutUsComponents/AbBanner"
 import AboutContent from "../component/AboutUsComponents/AboutContent"
@@ -11,6 +12,7 @@ export default function AboutUs() {
             <NavBar/>
             <AbBanner/>
             <AboutContent/>
+            <Footer/>
             
         </div>
     );

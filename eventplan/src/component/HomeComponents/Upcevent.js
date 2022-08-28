@@ -16,8 +16,8 @@ export default function Upcevent() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669428/test/Event-Planning-Business-Plan-780x440_kmw3fh.jpg" />
+                    <Card style={{ width: '18rem'}}>
+                        <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661715008/test/1001796_l5suzz.jpg" />
                     </Card>
 
                 </Col>

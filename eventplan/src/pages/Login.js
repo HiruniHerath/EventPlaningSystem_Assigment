@@ -4,6 +4,7 @@ import NavBar from "../component/NavigationBar/NavBar"
 import { FaArrowRight } from "react-icons/fa";
 import Loginform from "../component/LoginComponents/Loginform";
 import { Link } from "react-router-dom";
+import Footer from "../component/Footer/footer"
 
 
 
@@ -35,7 +36,7 @@ export default function Login() {
                
             </Row>
 
-
+            <Footer/>
         </div>
     );
 }
