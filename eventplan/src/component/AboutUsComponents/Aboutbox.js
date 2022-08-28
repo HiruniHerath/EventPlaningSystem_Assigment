@@ -3,11 +3,12 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Card from 'react-bootstrap/Card';
 
+//slide Box in about us
 const boxVariant = {
   visible: { opacity: 2, scale: 0.9, transition: { duration: 2.9 } },
   hidden: { opacity: 1, scale: 0 }
 };
-const Box = ({ data,num }) => {
+const Box = ({ data, num }) => {
 
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -30,12 +31,12 @@ const Box = ({ data,num }) => {
     >
       <Card >
         <Card.Body>
-          <Card.Title>  
-            {num}      
+          <Card.Title>
+            {num}
           </Card.Title>
           <Card.Text>
             {data}
-            
+
           </Card.Text>
 
         </Card.Body>
@@ -48,16 +49,16 @@ const Box = ({ data,num }) => {
 export default function Aboutbox() {
   return (
     <div className="App">
-      <Box num={1} data={'Creativity'}/> 
+      <Box num={1} data={'Creativity'} />
       <br></br>
       <br></br>
-      <Box num={2} data={'Flexibility'}/>
+      <Box num={2} data={'Flexibility'} />
       <br></br>
       <br></br>
-      <Box num={3} data={'Attidude'}/>
+      <Box num={3} data={'Attidude'} />
       <br></br>
       <br></br>
-      <Box num={4} data={'Value'}/>
+      <Box num={4} data={'Value'} />
       <br></br>
     </div>
   );
