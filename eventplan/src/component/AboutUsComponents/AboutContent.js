@@ -24,10 +24,6 @@ export default function AboutUsCon() {
                         </div>
 
 
-
-
-
-
                     </Col>
                     <Col>2 of 2</Col>
 
@@ -35,60 +31,146 @@ export default function AboutUsCon() {
                 </Row>
 
                 <Row>
+
                     <Col>
-                        <div style={{ paddingTop: "4vh", width: "650px", paddingLeft: "145px" }}>
+                        <div style={{ paddingTop: "4vh", width: "100%", paddingLeft: "100px", paddingRight: "100px" }}>
+                            <Card style={{ width: "100%", backgroundColor: "#C8B9B0" , height :"350px"}}>
+                                <h6 className="font">&nbsp;&nbsp;&nbsp;Gallary</h6>
+                                <Row>
+
+                                    <Col style={{ paddingLeft: "30px" }}>
+
+                                    <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
 
 
-                            <Carousel>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="https://res.cloudinary.com/hiruniherath/image/upload/v1661664311/cld-sample-5.jpg"
-                                        alt="First slide"
-                                    />
-                                    <Carousel.Caption>
-                                        <h3>First slide label</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdumhhhhhhhhh
-                                            hhhhhhhhjjj.</p>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="https://res.cloudinary.com/hiruniherath/image/upload/v1661664311/cld-sample-5.jpg"
-                                        alt="Second slide"
-
-                                    />
-
-                                    <Carousel.Caption>
-                                        <h3>Second slide label</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100"
-                                        src="https://res.cloudinary.com/hiruniherath/image/upload/v1661664311/cld-sample-5.jpg"
-                                        alt="Third slide"
-                                    />
-
-                                    <Carousel.Caption>
-                                        <h3>Third slide label</h3>
-                                        <p>
-                                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                        </p>
-                                    </Carousel.Caption>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div>
-
-                    </Col>
-                    <Col>
-                        <div style={{ paddingTop: "4vh", width: "650px" }}>
-                            <Card style={{ width: '40rem', backgroundColor: "#C8B9B0" }}>
-                                <h6 className="font">Gallary</h6>
 
 
+
+
+
+                                    </Col>
+                                    <Col>
+                                        <Row>
+                                            <Col>
+                                                <Card style={{ width: '12rem' }}>
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                </Card>
+
+                                            </Col>
+                                            <Col>
+                                                <Card style={{ width: '12rem' }}>
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                </Card>
+
+                                            </Col>
+
+
+                                        </Row>
+                                        <Row style={{ paddingTop: "15px", paddingBottom:"5px" }}>
+                                            <Col>
+                                                <Card style={{ width: '12rem' }}>
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                </Card>
+
+
+                                            </Col>
+                                            <Col>
+                                                <Card style={{ width: '12rem' }}>
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                </Card>
+
+
+                                            </Col>
+
+
+
+                                        </Row>
+
+
+
+                                    </Col>
+                                    <Col style={{paddingRight:"35px"}}>
+                                    <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+                                    </Col>
+
+                                </Row>
 
 
 
@@ -108,6 +190,14 @@ export default function AboutUsCon() {
 
 
                             </Card>
+
+
+
+
+                            <p>shhhhhhhhhhh</p>
+
+                <p>wkkkkkkkkkkkkS</p>
+
 
                         </div>
 
