@@ -4,7 +4,7 @@ import "./Banner.css";
 
 export default function Banner() {
  
-
+//video
   return (
     <div className="video-container">
       <video autoPlay muted loop>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Card } from 'react-bootstrap';
 import "./Upcevent.css";
- 
+//up comming event and other
 
 export default function Upcevent() {
 
@@ -16,7 +16,7 @@ export default function Upcevent() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '18rem'}}>
+                    <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661715008/test/1001796_l5suzz.jpg" />
                     </Card>
 
@@ -45,7 +45,7 @@ export default function Upcevent() {
 
                 </Col>
                 <Col  >
-                    <div style={{paddingTop:"10vh"}}>
+                    <div style={{ paddingTop: "10vh" }}>
 
                         <h6 className="font">Wide open</h6>
                         <p >“Wide open" was the idea of our director, who targeted the guardians and parents of down syndrome children or relatives. It was an unforgettable important milestone for our company that lasted for five days of a full-time schedule. Keep your eyes wide and open!. </p>

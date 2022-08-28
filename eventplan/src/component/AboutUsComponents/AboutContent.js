@@ -4,7 +4,7 @@ import { Row, Col, Card } from 'react-bootstrap';
 import { FaPhoneAlt, FaMailBulk, FaHeadphones, FaAmazon, FaAmazonPay, FaCcApplePay, FaCcPaypal, FaCcVisa, FaCcMastercard, FaAppStore, FaApple } from "react-icons/fa";
 import Aboutbox from "./Aboutbox";
 
-
+//about us page content
 
 export default function AboutUsCon() {
 
@@ -28,11 +28,11 @@ export default function AboutUsCon() {
 
                     </Col>
                     <Col>
-                    <div style={{paddingLeft:'5vh',paddingTop:'2vh'}}>
-                    <Aboutbox/>
-                    </div>
-                    
-                    
+                        <div style={{ paddingLeft: '5vh', paddingTop: '2vh' }}>
+                            <Aboutbox />
+                        </div>
+
+
                     </Col>
 
 
@@ -55,7 +55,7 @@ export default function AboutUsCon() {
                                                     src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669428/test/photo-1511578314322-379afb476865_jwpfzy.jpg"
                                                     alt="First slide"
                                                 />
-                                                
+
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
@@ -65,7 +65,7 @@ export default function AboutUsCon() {
                                                 />
 
                                                 <Carousel.Caption>
-                                                    
+
                                                 </Carousel.Caption>
                                             </Carousel.Item>
                                             <Carousel.Item>
@@ -75,7 +75,7 @@ export default function AboutUsCon() {
                                                     alt="Third slide"
                                                 />
 
-                                               
+
                                             </Carousel.Item>
                                         </Carousel>
 
@@ -123,7 +123,7 @@ export default function AboutUsCon() {
                                                     alt="First slide"
                                                 />
                                                 <Carousel.Caption>
-                                                    
+
                                                 </Carousel.Caption>
                                             </Carousel.Item>
                                             <Carousel.Item>
@@ -133,7 +133,7 @@ export default function AboutUsCon() {
                                                     alt="Second slide"
                                                 />
 
-                                                
+
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
@@ -142,7 +142,7 @@ export default function AboutUsCon() {
                                                     alt="Third slide"
                                                 />
 
-                                                
+
                                             </Carousel.Item>
                                         </Carousel>
 
@@ -166,7 +166,7 @@ export default function AboutUsCon() {
                                 </Col>
 
                                 <Col>
-                                    <br /><h6 style={{color:"#B27B7B"}}>Contact Us</h6>
+                                    <br /><h6 style={{ color: "#B27B7B" }}>Contact Us</h6>
 
                                     <div style={{ paddingTop: '3vh', paddingLeft: '4vh' }}>
                                         <FaPhoneAlt /> {' '}0771234561<br /><br />
@@ -176,7 +176,7 @@ export default function AboutUsCon() {
                                 </Col>
 
                                 <Col>
-                                    <br /><h6  style={{color:"#B27B7B"}}>Partners</h6>
+                                    <br /><h6 style={{ color: "#B27B7B" }}>Partners</h6>
                                     <div style={{ paddingTop: '3vh', paddingLeft: '4vh' }}>
                                         <FaAmazon size={50} /> {' '}
                                         {' '}<FaCcPaypal size={50} />{' '}

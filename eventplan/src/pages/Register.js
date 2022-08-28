@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col,Button } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import Regform from "../component/RegComponents/Regform";
 import NavBar from "../component/NavigationBar/NavBar"
 import { FaArrowLeft } from "react-icons/fa";
@@ -28,14 +28,14 @@ export default function Register() {
                         <h3 style={{ color: 'white' }}>Have an account?</h3>
                     </div>
                     <div style={{ paddingLeft: '5vh' }}>
-                    <Link to="/login"><Button variant="light"> <FaArrowLeft/> Login Here </Button>{' '}</Link>
+                        <Link to="/login"><Button variant="light"> <FaArrowLeft /> Login Here </Button>{' '}</Link>
                     </div>
 
 
                 </Col>
             </Row>
 
-            <Footer/>
+            <Footer />
         </div>
     );
 }

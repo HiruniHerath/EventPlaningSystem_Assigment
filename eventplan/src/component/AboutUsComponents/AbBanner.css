@@ -1,11 +1,8 @@
 .img {
     width: 100%;
-  background-image: url(https://res.cloudinary.com/hiruniherath/image/upload/v1661714598/test/adults-analysis-brainstorming-1661004_v4hytg.jpg);
-  height: 405px;
-  background-color: purple;
-  background-position: center;
-  border-radius: 0px 0px 0px 80px;
+    background-image: url(https://res.cloudinary.com/hiruniherath/image/upload/v1661714598/test/adults-analysis-brainstorming-1661004_v4hytg.jpg);
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+    border-radius: 0px 0px 0px 80px;
 }
-
-
-
