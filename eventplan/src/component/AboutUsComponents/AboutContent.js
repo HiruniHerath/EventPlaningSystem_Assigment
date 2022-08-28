@@ -20,7 +20,7 @@ export default function AboutUsCon() {
                         <div className="video-container" style={{ paddingTop: "2vh", paddingLeft: "40px" }}>
                             <video autoPlay muted loop>
                                 <source
-                                    src="https://res.cloudinary.com/hiruniherath/video/upload/v1661664555/test/Untitled_video_-_Made_with_Clipchamp_xgmxwb.mp4"
+                                    src="https://res.cloudinary.com/hiruniherath/video/upload/v1661721263/test/Untitled_video_-_Made_with_Clipchamp_2_sqrrjt.mp4"
                                 />
                             </video>
                         </div>
@@ -52,39 +52,30 @@ export default function AboutUsCon() {
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669428/test/photo-1511578314322-379afb476865_jwpfzy.jpg"
                                                     alt="First slide"
                                                 />
-                                                <Carousel.Caption>
-                                                    <h3>First slide label</h3>
-                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                                </Carousel.Caption>
+                                                
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661715711/test/b-business-festivals-organiseren_rglurp.jpg"
                                                     alt="Second slide"
                                                 />
 
                                                 <Carousel.Caption>
-                                                    <h3>Second slide label</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    
                                                 </Carousel.Caption>
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661716972/test/original_yi-peng-thailand-lantern-festival_ts1jjs.jpg"
                                                     alt="Third slide"
                                                 />
 
-                                                <Carousel.Caption>
-                                                    <h3>Third slide label</h3>
-                                                    <p>
-                                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                                    </p>
-                                                </Carousel.Caption>
+                                               
                                             </Carousel.Item>
                                         </Carousel>
 
@@ -93,13 +84,13 @@ export default function AboutUsCon() {
                                         <Row>
                                             <Col>
                                                 <Card style={{ width: '12rem' }}>
-                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669397/test/istockphoto-1078167308-170667a_slek6v.jpg" />
                                                 </Card>
 
                                             </Col>
                                             <Col>
                                                 <Card style={{ width: '12rem' }}>
-                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669398/test/istockphoto-534129306-170667a_dn5aem.jpg" />
                                                 </Card>
 
                                             </Col>
@@ -109,14 +100,14 @@ export default function AboutUsCon() {
                                         <Row style={{ paddingTop: "15px", paddingBottom: "5px" }}>
                                             <Col>
                                                 <Card style={{ width: '12rem' }}>
-                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/c_scale,h_306,w_513/v1661669398/test/Double-Image-Event-Mgmt-600x438_t0wvcf.jpg" />
                                                 </Card>
 
 
                                             </Col>
                                             <Col>
                                                 <Card style={{ width: '12rem' }}>
-                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg" />
+                                                    <Card.Img variant="top" src="https://res.cloudinary.com/hiruniherath/image/upload/v1661716121/test/Cullen-Communications-Insights-Hybrid-Events_u5zuft.jpg" />
                                                 </Card>
 
 
@@ -128,39 +119,30 @@ export default function AboutUsCon() {
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661717341/test/pexels-wendy-wei-1190297_zrwpav.jpg"
                                                     alt="First slide"
                                                 />
                                                 <Carousel.Caption>
-                                                    <h3>First slide label</h3>
-                                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                    
                                                 </Carousel.Caption>
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661676199/test/music-controller-dj-mixer-nightclub-party-against-background-blurred-silhouettes-dancing-people_118086-3418_rqi50x.webp"
                                                     alt="Second slide"
                                                 />
 
-                                                <Carousel.Caption>
-                                                    <h3>Second slide label</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                </Carousel.Caption>
+                                                
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
                                                     className="d-block w-100"
-                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661669430/test/pexels-wolfgang-2747449_q9i8hx.jpg"
+                                                    src="https://res.cloudinary.com/hiruniherath/image/upload/v1661717892/test/group-people-working-out-business-plan-office_1303-15818_pfcdxn.webp"
                                                     alt="Third slide"
                                                 />
 
-                                                <Carousel.Caption>
-                                                    <h3>Third slide label</h3>
-                                                    <p>
-                                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                                    </p>
-                                                </Carousel.Caption>
+                                                
                                             </Carousel.Item>
                                         </Carousel>
 
@@ -184,7 +166,7 @@ export default function AboutUsCon() {
                                 </Col>
 
                                 <Col>
-                                    <br /><h6>Contact Us</h6>
+                                    <br /><h6 style={{color:"#B27B7B"}}>Contact Us</h6>
 
                                     <div style={{ paddingTop: '3vh', paddingLeft: '4vh' }}>
                                         <FaPhoneAlt /> {' '}0771234561<br /><br />
@@ -194,7 +176,7 @@ export default function AboutUsCon() {
                                 </Col>
 
                                 <Col>
-                                    <br /><h6>Partners</h6>
+                                    <br /><h6  style={{color:"#B27B7B"}}>Partners</h6>
                                     <div style={{ paddingTop: '3vh', paddingLeft: '4vh' }}>
                                         <FaAmazon size={50} /> {' '}
                                         {' '}<FaCcPaypal size={50} />{' '}

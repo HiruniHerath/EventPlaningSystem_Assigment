@@ -4,6 +4,7 @@ import Regform from "../component/RegComponents/Regform";
 import NavBar from "../component/NavigationBar/NavBar"
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Footer from "../component/Footer/footer"
 
 
 
@@ -34,7 +35,7 @@ export default function Register() {
                 </Col>
             </Row>
 
-
+            <Footer/>
         </div>
     );
 }

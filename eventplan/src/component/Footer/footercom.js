@@ -45,7 +45,7 @@ export const Bars = styled(FaBars)`
 
 export const NavMenu = styled.div`
   display: flex;
-  margin-right: 0px
+  margin-left: 0px
   /* Second Nav */
   /* margin-right: -24px; */
   /* Third Nav */
@@ -70,7 +70,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: black;
+  background: #256ce1;
   padding: 10px 22px;
   color: #fff;
   outline: none;

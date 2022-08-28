@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../component/HomeComponents/Banner";
 import Upcevent from "../component/HomeComponents/Upcevent";
 import NavBar from "../component/NavigationBar/NavBar"
+import Footer from "../component/Footer/footer"
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
             <NavBar />
             <Banner />
             <Upcevent/>
+            <Footer/>
         </div>
     );
 }

@@ -48,12 +48,17 @@ const Box = ({ data,num }) => {
 export default function Aboutbox() {
   return (
     <div className="App">
-      <Box num={1} data={'hi hi hi'}/> 
-      <Box num={2} data={'nrw mkfshksf'}/>
-      <Box num={3} data={'kkf jjdj kjkk'}/>
-      <Box num={4} data={'hh hh jjjhh'}/>
-      <Box num={5} data={'Hi ModA Kyra'}/>
-
+      <Box num={1} data={'Creativity'}/> 
+      <br></br>
+      <br></br>
+      <Box num={2} data={'Flexibility'}/>
+      <br></br>
+      <br></br>
+      <Box num={3} data={'Attidude'}/>
+      <br></br>
+      <br></br>
+      <Box num={4} data={'Value'}/>
+      <br></br>
     </div>
   );
 }

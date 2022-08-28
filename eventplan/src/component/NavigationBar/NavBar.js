@@ -11,14 +11,15 @@ export default function Banner() {
 
        
         <Nav>
-        
-            <img
+          <img
               src="https://res.cloudinary.com/hiruniherath/image/upload/v1661666321/test/F_copy_zs1hmw.png"
               style={{width:"90px"}}
               alt="Logo"
             />
-           
-          <Bars />
+            
+              
+
+              <h3 style={{paddingRight:"800px",paddingTop:"20px", fontFamily:" 'Brush Script MT',cursive ",color:"#FFFFFF", fontSize:"40px"}}>Foresignt</h3>
 
           
           <NavMenu>
